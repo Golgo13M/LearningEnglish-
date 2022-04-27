@@ -1,29 +1,32 @@
 
 /* 4192022 Today work was about creting CSS and start the process of Style the webpages */
 body {
-    background-color: #ffefca;
+    background-color: #E9EBEE;
     font-family: 'Anton', sans-serif;
     margin: 0;
     padding: 0;
     position: relative;
     padding-bottom: 58px;
-}
-header{
-    background-color:#FFCC00;
+/* /* }
+/* w3-container{
     height: 150px;
     padding: 0px 89px 0px 0px;
     text-align: justify;
     font-size: 25px;
-    color: black;
+    color: red;
     font-family: 'Inconsolata', monospace;
-    font-weight: bold;
-}
-.flex {
+    font-weight: bold;  */
+} 
+ .flex {
+  font-family: 'Inconsolata',monospace;
+  background-color: #fafafa;
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px;
-}
+  gap: 5px;
+  border: 5px;
+} 
 h1 {
     font-family: "Epilogue", arial verdana;
     padding-top: 20px;
@@ -35,28 +38,25 @@ h4{
   text-align: center;
 }
 div.a {
-    width: 650px;
+    width: 1,000px;
     height: 175px;
     border: 1px;
-    word-wrap:break-word;     
+    word-wrap:break-word;  
+    align-items: block;   
 }
 .first{
     height: 230px;
     width: 200px;
      float: left; margin-right: 10px; margin-bottom: auto; margin-top: 10px ;
-     /* https://www.youtube.com/watch?v=mEMrFbX4Agg */
-    
-}
-.second{
-    height: 135px;
-    float: left; margin-right: 10px; margin-bottom: 5px;  
+     /* https://www.youtube.com/watch?v=mEMrFbX4Agg */    
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e9c911;
+    background-color: #708090;
+    font-family:  'Orelega One', cursive;
   }  
   li {
     float: left;
@@ -65,7 +65,7 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    padding: 17px 16px;
+    padding: 7px 8px;
     text-decoration: none;
     border: 1px solid black;
   }  
@@ -73,20 +73,74 @@ ul {
     background-color: #13a89cfb;
   }  
   .active {
-    background-color: #1d7a40d5;
+    background-color: #BDB7AB;
     
   }
-footer{
+ footer{
   position: absolute;
   bottom: 0%;
   height: 2.5 rem;
   width: 100%; 
   text-align: center;
   padding: 1px; 
-  background-color: #FFCC00;
+  background-color: #808588;
   color:black;
-  font-size: small;
-    }
+  font-size: small;  
+} 
+.pagination {
+  display:inline-block;
+  
+}
+.center{
+  text-align: center;
+}
+.pagination a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+ 
+}
+.pagination a.active {
+  background-color: white;
+}
+.pagination a:hover:not(.active){background-color: #ddd;}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+section{
+  margin: 12px;
+  display: block;
+}
+
 
 
 
@@ -149,5 +203,3 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all*/
 /* https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_div_test */
 /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_word-wrap */
 /* https://www.google.com/search?q=padding&client=firefox-b-d&sxsrf=APq-WBslHwoxlCuwqpcKoSjbctSb07xXxA:1650488859379&tbm=isch&source=iu&ictx=1&vet=1&sa=X&ved=2ahUKEwjt3qyRxqP3AhW-RzABHaCECH4Q_h16BAgPEAU&biw=1378&bih=992&dpr=1.25#imgrc=Sw06B0DVZstWFM */
-
-
